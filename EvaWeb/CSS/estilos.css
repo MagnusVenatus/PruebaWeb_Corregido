@@ -1,0 +1,24 @@
+/*Esta clase Cambia el Color de todo el Body */
+.ColorFondo {
+    background-color: #C8E6C9;
+}
+
+/*Esta clase cambia solo el color de la Navbar y Footer + botones*/
+.ColorT{
+    background-color: #388E3C;
+}
+/*Esta Clase Centra el contenido, texto o Imagen */
+.Centrar{
+    text-align: center;
+    justify-content: center;
+    display:  flex;
+}
+
+/*Para mantener el Footer*/
+.Footer{
+    margin-top: 200px;
+    width:100%;
+    height:100px;
+}
+
+
