@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.rtl.min.css" integrity="sha512-4W9f7EnJgM33kD11Ux2XNF9DSpJ7LoQXCvBNhzKTorRSyjPHmjXhHMZMafIYqYvTNWahUk2ulNsarMMLDEv4zA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Registrarse</title>
+</head>
+<body class="ColorFondo">
+<nav class="navbar navbar-expand-lg bg-Body-tertiary ColorT">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Inicio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="Informacion.html">Servicio Militar</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="Registro.html">Registrarse</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="Contacto_R.html">Contacto</a>
+        </li>
+    </ul>
+    </div>
+</nav>
+    <div class="Centrar"> Formulario Ingreso</div>
+    <form>
+        <div>
+        <label for="Nombre">Nombre Completo</label>
+        <input type="text" id="Nombre" name="Nombre" required>
+        </div>
+        <div>
+        <label for="FechaN">Fecha Nacimiento</label>
+        <input type="date" name="FechaN" id="FechaN" required>
+        </div>
+        <div>
+        <label for="Correo">Correo electronico</label>
+        <input type="email" name="Correo" id="Correo" required>
+        </div>
+        <div>
+        <label for="Sexo">Sexo</label>
+        <select name="Sexo" id="Sexo" required>
+            <option value="M">M</option>
+            <option value="F">F</option>
+            <option value="O">O</option>
+        </select>
+        </div>
+        <div>
+        <label for="ed">Edad "Mental"</label>
+        <input type="number" name="ed" id="ed" required>
+        </div>
+        <div>
+        <label for="Img">Foto de usted</label>
+        <input type="file" name="Img" id="Img" required>
+        </div>
+        <div>
+        <label for="col">Color Favorito</label>
+        <input type="color" name="col" id="col" required>
+        </div>
+        <div>
+    <input type="submit" class="ColorT" value="Enviar">
+    </div>
+    </form>
+    
+</body>
+<footer class="ColorT Centrar Footer">
+<div class="Centrar">Cristian Nicolas Barrales Baldes</div>
+<div><a href="https://github.com/MagnusVenatus">GitHub</a></div>
+</footer>
+</html>
